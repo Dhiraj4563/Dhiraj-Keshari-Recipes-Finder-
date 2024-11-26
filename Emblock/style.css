@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1581ee;
+    color: #f9efef;
+     background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240328/pngtree-healthy-thai-food-recipes-concept-image_15645273.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+  
+header {
+    
+    color: #e2e3f7;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#search {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#search input {
+    padding: 0.5rem;
+    width: 70%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#recipes, #features, #meal-plans {
+    padding: 2rem;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.recipe-card h3 {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.recipe-card p {
+    margin: 0 1rem 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.meal-plan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.meal-calendar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.day {
+    padding: 1rem;
+    border: 2px dashed #ccc;
+    background: #15013c;
+    text-align: center;
+    cursor: pointer;
+    color: #e2e3f7;
+}
+
+.day h3 {
+    margin-bottom: 0.5rem;
+}
+
+.day:hover {
+    background: #22014d;
+    border-color: #ff7f50;
+    color: #e2e3f7;
+}
+#features{
+    margin-left: 800px;
+    margin-top: -235px;
+    color: #0d0d0c;
+    font-weight: bolder;
+    background-color: brown;
+}
+#recipes{
+color: #0b0b0b;
+background-color: #94c6f7;
+}
